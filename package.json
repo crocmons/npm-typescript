@@ -1,0 +1,27 @@
+{
+  "name": "currency-converter",
+  "version": "3.4.1",
+  "description": "Next-JS Currency Converter",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run testing"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crocmons/npm-project.git"
+  },
+  "keywords": [
+    "npm",
+    "currency-converter"
+  ],
+  "author": "ilma salsabil",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/crocmons/npm-project/issues"
+  },
+  "homepage": "https://github.com/crocmons/npm-project#readme",
+  "dependencies": {
+    "@everapi/freecurrencyapi-js": "^1.0.1"
+  }
+}
