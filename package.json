@@ -1,6 +1,6 @@
 {
   "name": "npm-project-typescript",
-  "version": "2.4.1",
+  "version": "3.4.2",
   "type": "module",
   "description": "Typescript NPM Package",
   "main": "dist/index.js",
