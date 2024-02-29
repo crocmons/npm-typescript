@@ -1,10 +1,12 @@
 {
-  "name": "currency-converter",
+  "name": "change-currency-converter",
   "version": "3.4.1",
-  "description": "Next-JS Currency Converter",
-  "main": "index.js",
   "type": "module",
+  "description": "Next-JS Currency Converter",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "npx rollup -c",
     "test": "npm run testing"
   },
   "repository": {
@@ -23,5 +25,14 @@
   "homepage": "https://github.com/crocmons/npm-project#readme",
   "dependencies": {
     "@everapi/freecurrencyapi-js": "^1.0.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.2.60",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^4.12.0",
+    "tslib": "^2.6.2"
   }
 }
