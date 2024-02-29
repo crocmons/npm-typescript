@@ -1,5 +1,4 @@
 import  * as React from "react" 
-import ".npm-project/src/index.css"
 
 type PropsType = {
     children:React.ReactNode
