@@ -1,12 +1,14 @@
 import  * as React from "react" 
 
 type PropsType = {
-    children:React.ReactNode
+    children:React.ReactNode,
+    type?: "button" | "submit" | "reset",
+    onClick?:()=> void
 }
 
-const Button = ({children}:PropsType) => {
+const Button = ({children, onClick, type}:PropsType) => {
   return (
-    <button className='btn'>{children}</button>
+    <button type={type} onClick={onClick} className='btn'>{children}</button>
   )
 }
 
