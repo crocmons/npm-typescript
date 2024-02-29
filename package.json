@@ -1,8 +1,8 @@
 {
-  "name": "npm-typescript",
+  "name": "@crocmons/npm-typescript",
   "version": "3.4.1",
   "type": "module",
-  "description": "Next-JS Currency Converter",
+  "description": "Typescript NPM Package",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
