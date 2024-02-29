@@ -1,6 +1,6 @@
 {
-  "name": "@crocmons/npm-typescript",
-  "version": "3.4.1",
+  "name": "npm-project-typescript",
+  "version": "2.4.1",
   "type": "module",
   "description": "Typescript NPM Package",
   "main": "dist/index.js",
@@ -11,21 +11,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/crocmons/npm-project.git"
+    "url": "git+https://github.com/crocmons/npm-typescript.git"
   },
   "keywords": [
     "npm",
-    "currency-converter"
+    "typescript",
+    "rollup"
   ],
   "author": "ilma salsabil",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/crocmons/npm-project/issues"
+    "url": "https://github.com/crocmons/npm-typescript/issues"
   },
-  "homepage": "https://github.com/crocmons/npm-project#readme",
-  "dependencies": {
-    "@everapi/freecurrencyapi-js": "^1.0.1"
-  },
+  "homepage": "https://github.com/crocmons/npm-typescript#readme",
+  
   "devDependencies": {
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-typescript": "^11.1.6",
